@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Corinthians</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img src="./img/logo-corinthians.jpg" alt="Escudo do Corinthians">
+            <h1>Corinthians</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="cabecalho__links"><a href="#about">Sobre</a></li>
+                <li class="cabecalho__links"><a href="#titulos">Títulos</a></li>
+                <li class="cabecalho__links"><a href="#socio">Seja Sócio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="./img/banner-torcida.jpg" alt="Fotografia da torcida organizada do Corinthians" class="banner">
+        <section id="about">
+            <img src="./img/bandeira-gif.gif" alt="Bandeira do Corinthians">
+            <div>
+                <h2 class="titulo__section">História do Corinthians</h2>
+                <p>Sport Club Corinthians Paulista é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado de São Paulo. Foi fundado como uma equipe de futebol no dia 1 de setembro de 1910 por um grupo de operários do bairro Bom Retiro. Seu nome foi inspirado no Corinthian FC de Londres, que excursionava pelo Brasil.</p>
+                <p>Seu estádio, a Neo Química Arena, foi inaugurada oficialmente em 18 de maio de 2014 em uma partida entre a equipe do Corinthians e o Figueirense. Ela está localizada no distrito de Itaquera, na Zona Leste do município de São Paulo, Brasil e possui uma capacidade de 49.205 lugares, sendo o 13º maior estádio do Brasil. </p>
+                <div class="link-ler-mais">
+                    <a href="https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista" title="Conheça mais sobre a história do Corinthians" class="link__ler-mais">Ler Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="titulos">
+            <h2 class="titulo__section">Principais Titulos</h2>
+            <ul class="titulos__lista">
+                <li class="lista__conteudo">
+                    <img src="./img/troféu-paulistao.png" alt="Tofréu Paulistão" class="titulos__imagens">
+                    <h3 class="titulos__nome">Paulistão</h3>
+                    <p class="titulos__quantidade">30x</p>
+                </li>
+                <li class="lista__conteudo">
+                    <img src="./img/troféu-brasileirao.png" alt="Troféu Brasileirão" class="titulos__imagens">
+                    <h3 class="titulos__nome">Brasileirão</h3>
+                    <p class="titulos__quantidade">7x</p>
+                </li>
+                <li class="lista__conteudo">
+                    <img src="./img/troféu-libertadores.png" alt="Troféu Libertadores" class="titulos__imagens">
+                    <h3 class="titulos__nome">Libertadores</h3>
+                    <p class="titulos__quantidade">1x</p>
+                </li>
+                <li class="lista__conteudo">
+                    <img src="./img/troféu-mundial.png" alt="Troféu Mundial de Clubes" class="titulos__imagens">
+                    <h3 class="titulos__nome">Mundial</h3>
+                    <p class="titulos__quantidade">2x</p>
+                </li>
+            </ul>
+            <div>
+                <a href="https://www.meutimao.com.br/titulos-do-corinthians/" title="Veja todos os títulos do Corinthians" class="link__ler-mais titulos">Ler mais</a>
+            </div>
+        </section>
+
+        <section id="socio">
+            <div>
+                <h2 class="titulo__section">Seja um Sócio Torcedor</h2>
+                <form class="formulario">
+                    <label for="nome">Seu nome: </label>
+                    <input type="text" id="nome" required>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" placeholder="nome@dominio" required>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    <label for="valor">Valor (Em R$):</label>
+                    <input type="number" max="500" min="50" step="50" id="valor" required>
+                    <div id="informações__texto">
+                        <label for="informações">Deseja receber informações em seu email?</label>
+                        <input type="checkbox" id="informações">
+                    </div>
+                    <button type="submit" class="botao__formulario">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h2 class="titulo__section">Acesse nossas redes:</h2>
+                <ul class="redes">
+                    <li><a href="https://www.facebook.com/corinthians"><img src="./img/facebook.png" alt="Logo Facebook" class="links__imagens"></a></li>
+                    <li><a href="https://www.instagram.com/corinthians/"><img src="./img/instagram.png" alt="Logo Instagram" class="links__imagens"</a></li>
+                    <li><a href="https://www.youtube.com/@corinthians"><img src="./img/youtube.png" alt="Logo Youtube" class="links__imagens"></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Corinthians - Todos os direitos reservados 2023</p>
+    </footer>
+</body>
+</html>
